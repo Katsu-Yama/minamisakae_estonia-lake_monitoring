@@ -2,7 +2,7 @@ name: Update Syouwa Lake satellite data
 
 on:
   schedule:
-    - cron: "17 3 */3 * *"
+    - cron: "17 12 */3 * *"
       timezone: "Asia/Tokyo"
   workflow_dispatch:
     inputs:
@@ -61,3 +61,4 @@ jobs:
           path: output/
           if-no-files-found: ignore
           retention-days: 3
+
