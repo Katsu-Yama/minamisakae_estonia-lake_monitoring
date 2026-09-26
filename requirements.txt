@@ -1,0 +1,5 @@
+earthengine-api==1.7.45
+google-auth==2.58.0
+pillow==12.3.0
+requests==2.34.2
+supabase==2.31.0
