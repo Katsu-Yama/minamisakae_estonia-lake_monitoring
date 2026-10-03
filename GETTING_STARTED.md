@@ -24,7 +24,7 @@
 ## 2. Google Earth Engineの利用資格を確認
 
 1. [Google Cloud Console](https://console.cloud.google.com/)へ、notebookでEarth Engineを利用したGoogleアカウントでログインします。
-2. 上部のプロジェクト選択欄で、Earth Engine用のCloudプロジェクトを選びます。表示された**プロジェクトID**を控えます（プロジェクト名や番号ではありません）。元notebookには `fleet-breaker-464111-h5` がありましたが、今も使えるか必ずご自身で確認してください。
+2. 上部のプロジェクト選択欄で、Earth Engine用のCloudプロジェクトを選びます。表示された**プロジェクトID**を控えます（プロジェクト名や番号ではありません）。
 3. [Earth Engine登録ページ](https://code.earthengine.google.com/register)で、そのCloudプロジェクトが利用登録済みか確認します。非商用の無料利用が適用できるかどうかはGoogleの審査・条件によります。商用用途なら無料と決めつけないでください。
 4. Cloud Consoleの `APIとサービス` → `ライブラリ` で `Earth Engine API` が有効か確認します。
 5. `IAMと管理` → `サービス アカウント` → `サービス アカウントを作成` で、この自動実行専用のアカウントを作ります。Earth Engineが必要とする権限（通常はEarth Engine Resource Viewer、必要に応じてService Usage Consumer）をそのアカウントに与えます。詳しくは[Google公式のサービスアカウント案内](https://developers.google.com/earth-engine/guides/service_account)を参照してください。
