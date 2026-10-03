@@ -14,7 +14,7 @@
 ## 1. Supabaseを確認
 
 1. [Supabaseダッシュボード](https://supabase.com/dashboard)へログインします。
-2. `Katsu-Yama's Project`（ID: `yczkemhgmibupcdzcabz`）を開きます。停止中なら `Resume project` を押し、起動完了まで待ちます。
+2. `MinamiSakae_estonia_lakemonitor`（ID: `yczkemhgmibupcdzcabz`）を開きます。停止中なら `Resume project` を押し、起動完了まで待ちます。
 3. 左側の `Table Editor` で `satellite_observations` と `satellite_ingestion_runs` があることを確認します。
 4. 左側の `Storage` で `satellite-images`（Public）と `satellite-csv`（Private）があることを確認します。
 5. まだ無い場合は、リポジトリの `supabase_schema.sql` 全文をコピーし、Supabaseの `SQL Editor` → `New query` に貼り付けて `Run` を押します。再度3・4を確認します。
